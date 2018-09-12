@@ -1,6 +1,6 @@
 package com.example.android.displaylistofcountries.dagger;
 
-import com.example.android.displaylistofcountries.ServiceRepo;
+import com.example.android.displaylistofcountries.Repo.ServiceRepo;
 import com.example.android.displaylistofcountries.api.XoomApi;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 

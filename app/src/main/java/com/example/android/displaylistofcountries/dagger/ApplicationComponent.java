@@ -3,7 +3,7 @@ package com.example.android.displaylistofcountries.dagger;
 import android.app.Application;
 import android.content.Context;
 
-import com.example.android.displaylistofcountries.ServiceRepo;
+import com.example.android.displaylistofcountries.Repo.ServiceRepo;
 import com.example.android.displaylistofcountries.api.XoomApi;
 import com.example.android.displaylistofcountries.data.DataManager;
 import com.example.android.displaylistofcountries.data.SharedPrefsHelper;
