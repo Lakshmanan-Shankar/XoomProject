@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DisplayListOfCountries</string>
+    <string name="flag_image">flag image</string>
+    <string name="error_message">Our service is down, Please try again later</string>
+</resources>

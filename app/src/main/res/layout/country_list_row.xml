@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="@dimen/row_item_side_margin"
+    android:layout_marginRight="@dimen/row_item_side_margin"
+    android:layout_marginTop="@dimen/row_item_top_and_bottom_margin"
+    android:layout_marginBottom="@dimen/row_item_top_and_bottom_margin">
+
+    <RelativeLayout android:id="@+id/flagImageLayout"
+        android:layout_width="64dp"
+        android:layout_height="40dp">
+        <ImageView android:id="@+id/flagImageView"
+            android:layout_width="64dp"
+            android:contentDescription="@string/flag_image"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TextView android:id="@+id/countryNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/name_start_margin"
+        android:layout_marginEnd="@dimen/name_end_margin"
+        android:layout_toEndOf="@id/flagImageLayout"
+        android:layout_centerVertical="true"
+        android:textSize="25sp"
+        tools:text="United states"/>
+
+    <ImageButton android:id="@+id/favoriteIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@android:drawable/btn_star_big_off"
+        android:background="#00ffffff"
+        android:layout_marginLeft="@dimen/favorite_icon_side_margin"
+        android:layout_marginRight="@dimen/favorite_icon_side_margin"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+    
+</RelativeLayout>

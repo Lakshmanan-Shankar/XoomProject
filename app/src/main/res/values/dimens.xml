@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="row_item_side_margin">15dp</dimen>
+    <dimen name="row_item_top_and_bottom_margin">30dp</dimen>
+    <dimen name="favorite_icon_side_margin">10dp</dimen>
+    <dimen name="name_start_margin">20dp</dimen>
+    <dimen name="name_end_margin">40dp</dimen>
+</resources>
